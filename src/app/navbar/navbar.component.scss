@@ -1,87 +1,114 @@
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 200px;
-    padding-top: 70px;
-    position: fixed;
-    top: -50px;
-    left: 0;
-    width: 100%;
-    border-bottom-left-radius: 75px;
-    border-bottom-right-radius: 75px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
     box-sizing: border-box;
     background-color: #fff;
-    z-index: 1000;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
 
-    .logo {
-        width: 15%;
-        position: relative;
-        bottom: 5px;
-        margin-bottom: 5px;
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-    .navigation {
-        font-size: 20px;
-        font-family:"Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: bolder;
-        margin-right: 30px;
+    .nav-top {
+        width: 100%;
+        background-color: #22578D;
+        padding: 7px 0;
 
         ul {
             list-style: none;
             display: flex;
             flex-direction: row;
             align-items: center;
+            justify-content: center;
+            width: 100%;
             margin: 0;
             gap: 50px;
 
-            a {
-                color: #22578dd0;
-                text-decoration: none;
-                transition: all 0.3s ease-in-out 0s;
-            }
-
             li {
-                cursor: pointer;
-                ::after {
-                    content: '';
-                    display: block;
-                    width: 100;
-                    position: relative;
-                    height: 2px;
-                    background-color: #22578D;
-                    margin-top: 5px;
-                    visibility: hidden;
-                    transform: scaleX(0);
+                color : #fff;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .nav-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px 0 200px;
+
+        .logo {
+            width: 12%;
+            position: relative;
+            bottom: 5px;
+            margin-bottom: 5px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .navigation {
+            font-size: 20px;
+            font-family:"Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: bolder;
+            margin-right: 30px;
+            height: 100%;
+
+            ul {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0;
+                gap: 90px;
+                height: 100%;
+
+                a {
+                    color: #22578dd0;
+                    text-decoration: none;
                     transition: all 0.3s ease-in-out 0s;
                 }
-                
-                &.active {
+
+                li {
+                    cursor: pointer;
+                    line-height: 50px;
+                    font-weight: lighter;
                     ::after {
-                        visibility: visible;
-                        transform: scaleX(1);
+                        content: '';
+                        display: block;
+                        width: 70%;
+                        position: relative;
+                        height: 4px;
+                        background-color: #22578D;
+                        margin-top: 5px;
+                        visibility: hidden;
+                        left: 50%;
+                        transform: translateX(-50%) scaleX(0);
+                        transition: all 0.2s ease-in-out 0s;
+                        border-top-right-radius: 20px;
+                        border-top-left-radius: 20px;
+                    }
+                    
+                    &.active {
+                        ::after {
+                            visibility: visible;
+                            transform: translateX(-50%) scaleX(1) ;
+                        }
+
+                        a {
+                            color: #22578D;
+                        }
                     }
 
-                    a {
+                    &:hover :after {
+                        visibility: visible;
+                        transform: translateX(-50%) scaleX(1) ;
+                    }
+
+                    &:hover a {
                         color: #22578D;
                     }
-                }
-
-                &:hover :after {
-                    visibility: visible;
-                    transform: scaleX(1);
-                }
-
-                &:hover a {
-                    color: #22578D;
                 }
             }
         }
     }
+    
+    
 }
