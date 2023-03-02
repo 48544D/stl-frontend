@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { HomeCarrouselComponent } from './home-carrousel/home-carrousel.component';
 import { HeroComponent } from './home/hero/hero.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -15,12 +15,12 @@ import { HeroComponent } from './home/hero/hero.component';
     NavbarComponent,
     FooterComponent,
     SidebarComponent,
-    HomeCarrouselComponent,
     HeroComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

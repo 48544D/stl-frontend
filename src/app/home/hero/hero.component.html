@@ -1,1 +1,35 @@
-<p>hero works!</p>
+<!-- <div class="home-carrousel">
+    <div class="home-slide">
+        <img src="assets/images/truck.jpg" alt="" class="slide-img">
+        <div class="slide-content">
+            <div class="content-top">
+                <h1>Nous sommes les experts du transport routier</h1>
+                <h2>Le seul transporteur qui respecta rigoureusement les bonnes pratiques du transport routier</h2>
+            </div>
+            <div class="slide-position">
+                
+            </div>
+            <div class="more-info-slide">
+
+            </div>
+        </div>
+    </div>
+
+</div> -->
+
+<div class="home-carousel">
+    <carousel [pauseOnFocus]="true" [isAnimated]="true">
+        <slide *ngFor="let slide of slides">
+            <img [src]="slide.image" alt="{{slide.text}}">
+            <div class="carou">
+                <div class="carousel-caption">
+                    <h1>Nous sommes les experts du transport routier</h1>
+                    <span>Le seul transporteur qui respecta rigoureusement les bonnes pratiques du transport routier</span>
+                    <div class="more-info">
+                        <a href="#">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </slide>
+    </carousel>
+</div>
