@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeroComponent } from './home/hero/hero.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { OperationsComponent } from './home/operations/operations.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     NavbarComponent,
     FooterComponent,
     SidebarComponent,
-    HeroComponent
+    HeroComponent,
+    OperationsComponent
   ],
   imports: [
     BrowserModule,
