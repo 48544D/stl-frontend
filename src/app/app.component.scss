@@ -1,4 +1,10 @@
 main {
     position: absolute;
     top: 4vh;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    display: none !important;
 }
