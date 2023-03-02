@@ -31,6 +31,9 @@
                 }
 
                 .more-info {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     border: 3px solid white;
                     border-radius: 50px;
                     width: 22%;
