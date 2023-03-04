@@ -1,1 +1,37 @@
-<p>operations works!</p>
+<div class="operations">
+    <div class="tabs">
+        <div class="tab" (click)="openTab('tab1')" [class.active]="activeTab === 'tab1'">
+            <img src="assets/images/home/operations/suivi_coli.png" alt="">
+            <p>SUIVI DE COLIS</p>
+        </div>
+        <span class="tab" (click)="openTab('tab2')" [class.active]="activeTab === 'tab2'">
+            <img src="assets/images/home/operations/point_relais.png" alt="">
+            <p>POINTS RELAIS</p>
+        </span>
+        <span class="tab" (click)="openTab('tab3')" [class.active]="activeTab === 'tab3'">
+            <img src="assets/images/home/operations/demander_devis.png" alt="">
+            <p>DEMANDER LE DEVIS</p>
+        </span>
+    </div>
+    
+    <div id="tab1" class="tab-content" [class.show]="activeTab === 'tab1'">
+        <!-- search bar -->
+        <form action="">
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Search...">
+                <button type="submit" class="search-button">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </form>
+        
+    </div>
+    
+    <div id="tab2" class="tab-content" [class.show]="activeTab === 'tab2'">
+        <h2>Tab 2 Content</h2>
+    </div>
+    
+    <div id="tab3" class="tab-content" [class.show]="activeTab === 'tab3'">
+        <h2>Tab 3 Content</h2>
+    </div>
+</div>

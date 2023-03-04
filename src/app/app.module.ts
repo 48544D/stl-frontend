@@ -10,6 +10,7 @@ import { HeroComponent } from './home/hero/hero.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { OperationsComponent } from './home/operations/operations.component';
 import { HomeComponent } from './home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,8 +24,9 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
