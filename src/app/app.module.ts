@@ -9,6 +9,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeroComponent } from './home/hero/hero.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { OperationsComponent } from './home/operations/operations.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { OperationsComponent } from './home/operations/operations.component';
     FooterComponent,
     SidebarComponent,
     HeroComponent,
-    OperationsComponent
+    OperationsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
