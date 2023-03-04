@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.carousel-control-next, .carousel-control-prev {
+    display: none !important;
+}
+
+main {
+    position: absolute;
+    top: 5vh;
+    width: 100%;
+    height: 100%;
+}
