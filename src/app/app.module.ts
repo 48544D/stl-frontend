@@ -12,6 +12,7 @@ import { OperationsComponent } from './home/operations/operations.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DescriptionComponent } from './home/description/description.component';
+import { NotreTabsComponent } from './home/notre-tabs/notre-tabs.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DescriptionComponent } from './home/description/description.component';
     HeroComponent,
     OperationsComponent,
     HomeComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    NotreTabsComponent
   ],
   imports: [
     BrowserModule,
