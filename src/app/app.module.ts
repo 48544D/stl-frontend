@@ -11,6 +11,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { OperationsComponent } from './home/operations/operations.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DescriptionComponent } from './home/description/description.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SidebarComponent,
     HeroComponent,
     OperationsComponent,
-    HomeComponent
+    HomeComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,
