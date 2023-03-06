@@ -1,1 +1,63 @@
-<p>notre-tabs works!</p>
+<div class="notre-tabs">
+    <div class="tabs">
+        <div class="tab" (click)="openTab('tab1')" [class.active]="activeTab === 'tab1'">
+            <div class="image">
+                <img class="white" src="assets/images/home/notre-tabs/vision.png" alt="">
+                <img class="blue" src="assets/images/home/notre-tabs/vocation-blue.png" alt="">
+            </div>
+
+            <!-- <img src="assets/images/home/notre-tabs/vision.png" alt=""> -->
+            <p>NOTRE VISION </p>
+        </div>
+        <span class="tab" (click)="openTab('tab2')" [class.active]="activeTab === 'tab2'">
+            <div class="image">
+                <img class="white" src="assets/images/home/notre-tabs/vocation.png" alt="">
+                <img class="blue" src="assets/images/home/notre-tabs/vocation-blue.png" alt="">
+            </div>
+
+            <p>NOTRE VOCATION</p>
+        </span>
+        <span class="tab" (click)="openTab('tab3')" [class.active]="activeTab === 'tab3'">
+            <div class="image">
+                <img class="white" src="assets/images/home/notre-tabs/volonte.png" alt="">
+                <img class="blue" src="assets/images/home/notre-tabs/volonte-blue.png" alt="">
+            </div>
+
+            <!-- <img src="assets/images/home/notre-tabs/volonte.png" alt=""> -->
+            <p>NOTRE VOLONTE</p>
+        </span>
+        <span class="tab" (click)="openTab('tab4')" [class.active]="activeTab === 'tab4'">
+            <div class="image">
+                <img class="white" src="assets/images/home/notre-tabs/strategie.png" alt="">
+                <img class="blue" src="assets/images/home/notre-tabs/strategie-blue.png" alt="">
+            </div>
+
+            <!-- <img src="assets/images/home/notre-tabs/strategie.png" alt=""> -->
+            <p>NOTRE STRATEGIE</p>
+        </span>
+    </div>
+    
+    
+    <div id="tab1" class="tab-content" [class.show]="activeTab === 'tab1'">
+        <p>
+            Notre motivation découle d'une perspective selon laquelle nous pouvons atteindre une croissance
+            soutenue en consacrant des efforts à une stratégie d'amélioration constante et en nous positionnant
+            comme une force de référence pour nos partenaires. Nous croyons que cette vision peut être ...
+        </p>
+        <div class="more-info">
+            <a href="#">En savoir plus</a>
+        </div>        
+    </div>
+    
+    <div id="tab2" class="tab-content" [class.show]="activeTab === 'tab2'">
+        <h2>Tab 2 Content</h2>
+    </div>
+    
+    <div id="tab3" class="tab-content" [class.show]="activeTab === 'tab3'">
+        <h2>Tab 3 Content</h2>
+    </div>
+
+    <div id="tab4" class="tab-content" [class.show]="activeTab === 'tab4'">
+        <h2>Tab 4 Content</h2>
+    </div>
+</div>
