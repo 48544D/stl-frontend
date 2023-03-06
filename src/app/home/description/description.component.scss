@@ -1,0 +1,41 @@
+.description {
+    display: flex;
+    gap: 5vw;
+    padding: 2vw 4vw;
+
+    .description-text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5vw;
+        width: 70%;
+
+        h1 {
+            font-size: 2.2vw;
+            margin: 0;
+            padding: 0 2vw;
+            width: 100%;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 8vw;
+                height: 0.2vw;
+                background-color: #22578c;
+            }
+        }
+
+        p {
+            font-size: 1.3vw;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+    }
+
+    img {
+        height: 30vw;
+        align-self: center;
+        object-fit: cover;
+    }
+}
