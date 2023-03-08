@@ -1,0 +1,67 @@
+.portail {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 60px 50px 0;
+
+    .title {
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            color: #285e94;
+            font-size: 2.5vw;
+            margin: 0;
+            line-height: 4.5vw;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 80%;
+                height: 4px;
+                background-color: #22578c;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .body {
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+
+        img {
+            width: 45vw;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5vw;
+
+            p {
+                font-size: 1.3vw;
+                margin: 0;
+                font-weight: 500;
+            }
+
+            .fonctionnalites {
+                display: flex;
+                flex-direction: column;
+                gap: 1vw;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    list-style: "\2713";
+
+                    li {
+                        padding: 0 0 0 .5vw;
+                        color: #22578c;
+                        font-size: 1.3vw;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
