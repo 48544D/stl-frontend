@@ -15,6 +15,7 @@ import { DescriptionComponent } from './home/description/description.component';
 import { NotreTabsComponent } from './home/notre-tabs/notre-tabs.component';
 import { SolutionsComponent } from './home/solutions/solutions.component';
 import { PortailComponent } from './home/portail/portail.component';
+import { ActionsComponent } from './home/actions/actions.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PortailComponent } from './home/portail/portail.component';
     DescriptionComponent,
     NotreTabsComponent,
     SolutionsComponent,
-    PortailComponent
+    PortailComponent,
+    ActionsComponent,
   ],
   imports: [
     BrowserModule,
