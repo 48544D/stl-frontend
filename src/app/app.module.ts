@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DescriptionComponent } from './home/description/description.component';
 import { NotreTabsComponent } from './home/notre-tabs/notre-tabs.component';
 import { SolutionsComponent } from './home/solutions/solutions.component';
+import { PortailComponent } from './home/portail/portail.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SolutionsComponent } from './home/solutions/solutions.component';
     HomeComponent,
     DescriptionComponent,
     NotreTabsComponent,
-    SolutionsComponent
+    SolutionsComponent,
+    PortailComponent
   ],
   imports: [
     BrowserModule,
