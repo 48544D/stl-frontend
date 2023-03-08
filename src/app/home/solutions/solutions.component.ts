@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./solutions.component.scss']
 })
 export class SolutionsComponent {
+  activeTab: string = 'tab1';
 
+  openTab(tabName: string) {
+    this.activeTab = tabName;
+  }
 }

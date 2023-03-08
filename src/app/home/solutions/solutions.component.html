@@ -1,0 +1,50 @@
+<div class="solutions">
+    <div class="title">
+        <h1>Nos Solutions</h1>
+    </div>
+    <div class="solutions-tabs">
+        <div class="tabs">
+            <div class="tab" (click)="openTab('tab1')" [class.active]="activeTab === 'tab1'">
+                <div class="image">
+                    <img class="white" src="assets/images/home/solutions/transport.png" alt="">
+                    <img class="blue" src="assets/images/home/solutions/transport-blue.png" alt="">
+                </div>
+                <p>Transport</p>
+            </div>
+            <span class="tab" (click)="openTab('tab2')" [class.active]="activeTab === 'tab2'">
+                <div class="image">
+                    <img class="white" src="assets/images/home/solutions/dema.png" alt="">
+                    <img class="blue" src="assets/images/home/solutions/dema-blue.png" alt="">
+                </div>
+    
+                <p>Déménagement</p>
+            </span>
+            <span class="tab" (click)="openTab('tab3')" [class.active]="activeTab === 'tab3'">
+                <div class="image">
+                    <img class="white" src="assets/images/home/solutions/entre.png" alt="">
+                    <img class="blue" src="assets/images/home/solutions/entre-blue.png" alt="">
+                </div>
+                <p>Entreposage</p>
+            </span>
+        </div>
+        
+        
+        <div id="tab1" class="tab-content" [class.show]="activeTab === 'tab1'">
+            <p>
+                Smart Logistics Transition Offre une solution compléte pour le transport de marchandises dans tout le Maroc.
+                Smart Logistics Transition posséde et gere directement une flotte de véhicules de nouvelle génération de tous types de tonnages adaptée aux spécificités des clients avec une disponibilité 7/7 et 24H/24.
+            </p>
+            <div class="more-info">
+                <a href="#">En savoir plus</a>
+            </div>        
+        </div>
+        
+        <div id="tab2" class="tab-content" [class.show]="activeTab === 'tab2'">
+            <h2>Tab 2 Content</h2>
+        </div>
+        
+        <div id="tab3" class="tab-content" [class.show]="activeTab === 'tab3'">
+            <h2>Tab 3 Content</h2>
+        </div>
+    </div>
+</div>
