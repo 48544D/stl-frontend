@@ -16,6 +16,7 @@ import { NotreTabsComponent } from './home/notre-tabs/notre-tabs.component';
 import { SolutionsComponent } from './home/solutions/solutions.component';
 import { PortailComponent } from './home/portail/portail.component';
 import { ActionsComponent } from './home/actions/actions.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { ActionsComponent } from './home/actions/actions.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     CarouselModule.forRoot(),
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

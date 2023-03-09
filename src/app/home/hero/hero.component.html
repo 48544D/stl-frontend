@@ -20,13 +20,13 @@
 <div class="home-carousel">
     <carousel [pauseOnFocus]="true" [isAnimated]="true">
         <slide *ngFor="let slide of slides">
-            <img [src]="slide.image" alt="{{slide.text}}">
+            <img [src]="url + slide.image" alt="{{ slide.text }}">
             <div class="carou">
                 <div class="carousel-caption">
                     <h1>{{ slide.title }}</h1>
                     <span>{{ slide.text }}</span>
                     <div class="more-info">
-                        <a href="#">En savoir plus</a>
+                        <a href="{{ slide.link }}">En savoir plus</a>
                     </div>
                 </div>
             </div>
