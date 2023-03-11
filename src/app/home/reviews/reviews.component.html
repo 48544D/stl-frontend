@@ -1,0 +1,23 @@
+<div class="reviews">
+    <h1>NOS CLIENTS TÉMOIGNENT</h1>
+    <div class="section">
+        <div class="triangle"></div>
+        <carousel [pauseOnFocus]="true" [isAnimated]="true">
+            <slide *ngFor="let review of reviews">
+                <div class="slide-content">
+                    <div class="slide-image">
+                        <img src="{{ review.image }}" alt="{{ review.title }}">
+                    </div>
+                    <div class="line"></div>
+                    <div class="slide-text">
+                        <div class="slide-header">
+                            <h1>{{ review.title }}</h1>
+                            <span>{{ review.subTitle }}</span>
+                        </div>
+                        <p>{{ review.comment }}</p>
+                    </div>
+                </div>
+            </slide>
+        </carousel>
+    </div>
+</div>

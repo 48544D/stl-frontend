@@ -5,9 +5,17 @@
     box-sizing: border-box;
  }
 
-.carousel-control-next, .carousel-control-prev {
-    display: none !important;
-}
+ .home-carousel {
+     .carousel-control-next, .carousel-control-prev {
+         display: none !important;
+     }
+ }
+
+ .reviews {
+    .carousel-indicators {
+        display: none !important;
+    }
+ }
 
 main {
     position: absolute;
