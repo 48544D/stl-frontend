@@ -7,8 +7,13 @@ import { Component } from '@angular/core';
 })
 export class SolutionsComponent {
   activeTab: string = 'tab1';
+  popupVisible = false;
 
   openTab(tabName: string) {
     this.activeTab = tabName;
+  }
+
+  togglePopup() {
+    this.popupVisible = !this.popupVisible;
   }
 }

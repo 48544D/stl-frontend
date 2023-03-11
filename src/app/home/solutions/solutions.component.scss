@@ -142,3 +142,67 @@
         }
     }
 }
+
+.truck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 50px;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #fff;
+
+        h1 {
+            font-size: 3vw;
+            margin: 0;
+            font-weight: 400;
+        }
+    
+        p {
+            font-size: 1.3vw;
+            margin: 0;
+        }
+    }
+}
+
+// vertical line
+.line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2.5px;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 70%;
+}
+
+.ship {
+    padding: 5px 50px;
+    color: #fff;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #fff;
+
+        h1 {
+            font-size: 3vw;
+            margin: 0;
+            font-weight: 400;
+        }
+    
+        p {
+            font-size: 1.3vw;
+            margin: 0;
+        }
+    }
+}

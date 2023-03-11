@@ -1,0 +1,12 @@
+<div class="popup">
+  <div class="popup-overlay" (click)="closePopup()"></div>
+  <div class="popup-content">
+    <!-- <div class="popup-header">
+      <h2>{{ title }}</h2>
+      <button (click)="closePopup()">X</button>
+    </div> -->
+    <div class="popup-body">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</div>

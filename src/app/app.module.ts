@@ -17,6 +17,7 @@ import { SolutionsComponent } from './home/solutions/solutions.component';
 import { PortailComponent } from './home/portail/portail.component';
 import { ActionsComponent } from './home/actions/actions.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PopupComponent } from './home/popup/popup.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
     SolutionsComponent,
     PortailComponent,
     ActionsComponent,
+    PopupComponent,
   ],
   imports: [
     BrowserModule,

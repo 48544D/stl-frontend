@@ -35,7 +35,7 @@
                 Smart Logistics Transition posséde et gere directement une flotte de véhicules de nouvelle génération de tous types de tonnages adaptée aux spécificités des clients avec une disponibilité 7/7 et 24H/24.
             </p>
             <div class="more-info">
-                <a href="#">En savoir plus</a>
+                <a (click)="togglePopup()">En savoir plus</a>
             </div>        
         </div>
         
@@ -48,3 +48,20 @@
         </div>
     </div>
 </div>
+
+<app-popup *ngIf="popupVisible" title="Popup Title" (close)="togglePopup()">
+    <div class="truck">
+        <a href="#">
+            <h1>SmarTruck</h1>
+            <p>Transport routier</p>
+        </a>
+    </div>
+    <!-- vertical lign -->
+    <div class="line"></div>
+    <div class="ship">
+        <a href="#">
+            <h1>Smart'Ship</h1>
+            <p>Transport e-commerce</p>
+        </a>
+    </div>
+</app-popup>
