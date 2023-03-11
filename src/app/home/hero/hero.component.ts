@@ -7,7 +7,7 @@ import { CarouselService } from 'src/app/services/home/hero/carousel.service';
 })
 export class HeroComponent implements OnInit  {
   slides: any;
-  url:string = 'http://127.0.0.1:8000/storage/';
+  readonly url:string = 'http://127.0.0.1:8000/storage/';
 
   constructor(private CarouselService: CarouselService) {}
 
