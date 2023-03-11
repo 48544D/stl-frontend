@@ -18,6 +18,7 @@ import { PortailComponent } from './home/portail/portail.component';
 import { ActionsComponent } from './home/actions/actions.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PopupComponent } from './home/popup/popup.component';
+import { ReviewsComponent } from './home/reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { PopupComponent } from './home/popup/popup.component';
     PortailComponent,
     ActionsComponent,
     PopupComponent,
+    ReviewsComponent,
   ],
   imports: [
     BrowserModule,
