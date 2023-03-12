@@ -19,6 +19,7 @@ import { ActionsComponent } from './home/actions/actions.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PopupComponent } from './home/popup/popup.component';
 import { ReviewsComponent } from './home/reviews/reviews.component';
+import { ConfianceComponent } from './home/confiance/confiance.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ReviewsComponent } from './home/reviews/reviews.component';
     ActionsComponent,
     PopupComponent,
     ReviewsComponent,
+    ConfianceComponent,
   ],
   imports: [
     BrowserModule,
