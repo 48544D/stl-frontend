@@ -1,40 +1,76 @@
-.popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 11;
-  
-    .popup-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-  
-    .popup-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #285e94;
-        width: 80%;
-        max-width: max-content;
-        border-radius: 30px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+.popup-body {
+    background-color: #285e94;
+    max-width: max-content;
+    // border-radius: 30px;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
 
-        
-  
-        .popup-body {
-            padding: 35px;
+    .truck {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 50px;
+    
+        a {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            gap: 5vw;
+            justify-content: center;
+            text-decoration: none;
+            color: #fff;
+    
+            h1 {
+                font-size: 3.5vw;
+                // line-height: 4.5vw;
+                margin: 0;
+                font-weight: 300;
+            }
+        
+            p {
+                font-size: 1.3vw;
+                margin: 0;
+            }
+        }
+    }
+    
+    // vertical line
+    .line {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2.5px;
+        height: 80%;
+        background-color: #fff;
+        border-radius: 70%;
+    }
+    
+    .ship {
+        padding: 5px 50px;
+        color: #fff;
+    
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #fff;
+    
+            h1 {
+                font-size: 3.5vw;
+                // line-height: 4.5vw;
+                margin: 0;
+                font-weight: 300;
+            }
+        
+            p {
+                font-size: 1.3vw;
+                margin: 0;
+            }
         }
     }
 }
-  

@@ -20,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { PopupComponent } from './home/popup/popup.component';
 import { ReviewsComponent } from './home/reviews/reviews.component';
 import { ConfianceComponent } from './home/confiance/confiance.component';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { ConfianceComponent } from './home/confiance/confiance.component';
     AppRoutingModule,
     CarouselModule.forRoot(),
     HttpClientModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

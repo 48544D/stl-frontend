@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { PopupComponent } from '../popup/popup.component';
 
 @Component({
   selector: 'app-solutions',
@@ -7,13 +9,14 @@ import { Component } from '@angular/core';
 })
 export class SolutionsComponent {
   activeTab: string = 'tab1';
-  popupVisible = false;
+
+  constructor(public dialog: MatDialog) { }
 
   openTab(tabName: string) {
     this.activeTab = tabName;
   }
 
   togglePopup() {
-    this.popupVisible = !this.popupVisible;
+    this.dialog.open(PopupComponent);
   }
 }
