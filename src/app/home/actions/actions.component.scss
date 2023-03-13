@@ -29,16 +29,25 @@
             border: 2px solid #22578c;
             border-radius: 50px;
             cursor: pointer;
-            padding: .3vw 1.5vw;
+            padding: .4vw 1.5vw;
             z-index: 2;
+            transition: all 0.3s ease-in;
 
             a {
                 height: 100%;
                 color: #22578c;
-                font-size: 2vw;
+                font-size: 1.8vw;
                 line-height: 1;
                 text-decoration: none;
                 text-align: left;
+                transition: all 0.3s ease-in;
+            }
+
+            &:hover {
+                background: #22578c;
+                a {
+                    color: #fff;
+                }
             }
         }
     }

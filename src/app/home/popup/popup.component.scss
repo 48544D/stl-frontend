@@ -22,17 +22,22 @@
             justify-content: center;
             text-decoration: none;
             color: #fff;
+            transition: all .3s ease-in-out;
     
             h1 {
                 font-size: 3.5vw;
                 // line-height: 4.5vw;
                 margin: 0;
-                font-weight: 300;
+                font-weight: 400;
             }
         
             p {
                 font-size: 1.3vw;
                 margin: 0;
+            }
+
+            &:hover {
+                color: #000;
             }
         }
     }
@@ -59,17 +64,21 @@
             justify-content: center;
             text-decoration: none;
             color: #fff;
+            transition: all .3s ease-in-out;
     
             h1 {
                 font-size: 3.5vw;
-                // line-height: 4.5vw;
                 margin: 0;
-                font-weight: 300;
+                font-weight: 400;
             }
         
             p {
                 font-size: 1.3vw;
                 margin: 0;
+            }
+
+            &:hover {
+                color: #000;
             }
         }
     }
