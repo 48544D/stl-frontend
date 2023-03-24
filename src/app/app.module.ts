@@ -23,6 +23,7 @@ import { ConfianceComponent } from './home/confiance/confiance.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { SolutionsPageComponent } from './solutions-page/solutions-page.component';
 import { SolutionsHeaderComponent } from './solutions-page/solutions-header/solutions-header.component';
+import { SolutionsTransportComponent } from './solutions-page/solutions-transport/solutions-transport.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { SolutionsHeaderComponent } from './solutions-page/solutions-header/solu
     ConfianceComponent,
     SolutionsPageComponent,
     SolutionsHeaderComponent,
+    SolutionsTransportComponent,
   ],
   imports: [
     BrowserModule,
