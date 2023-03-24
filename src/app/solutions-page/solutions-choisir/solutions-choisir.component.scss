@@ -9,7 +9,7 @@
     h1 {
         font-size: 3.5vw;
         font-weight: 400;
-        color: #22578c;
+        color: var(--primary-color);
         line-height: 1.6;
         margin: 0;
 
@@ -18,7 +18,7 @@
             display: block;
             width: 60%;
             height: 4px;
-            background-color: #22578c;
+            background-color: var(--primary-color);
             margin: 0 auto;
         }
     }

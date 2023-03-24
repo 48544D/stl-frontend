@@ -10,15 +10,25 @@
     box-sizing: border-box;
  }
 
- .home-carousel {
-     .carousel-control-next, .carousel-control-prev {
-         display: none !important;
-     }
+.home-carousel {
+    .carousel-control-next, .carousel-control-prev {
+        display: none !important;
+    }
  }
 
- .reviews {
+.reviews {
     .carousel-indicators {
         display: none !important;
+    }
+ }
+
+.autres {
+    .carousel-indicators {
+        bottom: -2vw;
+        margin: 0;
+        button {
+            background-color: #22578c;
+        }
     }
  }
 

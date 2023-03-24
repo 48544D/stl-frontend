@@ -25,6 +25,7 @@ import { SolutionsPageComponent } from './solutions-page/solutions-page.componen
 import { SolutionsHeaderComponent } from './solutions-page/solutions-header/solutions-header.component';
 import { SolutionsTransportComponent } from './solutions-page/solutions-transport/solutions-transport.component';
 import { SolutionsChoisirComponent } from './solutions-page/solutions-choisir/solutions-choisir.component';
+import { SolutionsAutresComponent } from './solutions-page/solutions-autres/solutions-autres.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { SolutionsChoisirComponent } from './solutions-page/solutions-choisir/so
     SolutionsHeaderComponent,
     SolutionsTransportComponent,
     SolutionsChoisirComponent,
+    SolutionsAutresComponent,
   ],
   imports: [
     BrowserModule,
