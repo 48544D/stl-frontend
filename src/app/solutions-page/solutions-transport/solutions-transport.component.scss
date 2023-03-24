@@ -26,17 +26,15 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             width: 45%;
             height: 60vw;
-            padding: 2vw;
+            padding: 3vw 2vw;
             background: rgb(185,28,36);
             background: linear-gradient(180deg, rgba(185,28,36,1) 0%, rgba(232,28,36,1) 100%);
             border-radius: 30px;
             
             .header {
-                position: relative;
-                top: -4vw;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -58,6 +56,7 @@
             .text {
                 display: flex;
                 flex-direction: column;
+                height: 26vw;
                 color: #fff;
                 font-size: 1.3vw;
                 line-height: 1.6vw;
@@ -87,17 +86,15 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             width: 45%;
             height: 60vw;
-            padding: 2vw;
+            padding: 3vw 2vw;
             background: rgb(0,113,188);
             background: linear-gradient(180deg, rgba(0,113,188,1) 0%, rgba(0,139,188,1) 100%);
             border-radius: 30px;
             
             .header {
-                position: relative;
-                top: -1.8vw;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -117,8 +114,7 @@
             }
 
             .text {
-                position: relative;
-                top: 2.4vw;
+                height: 26vw;
                 display: flex;
                 flex-direction: column;
                 color: #fff;
