@@ -24,6 +24,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { SolutionsPageComponent } from './solutions-page/solutions-page.component';
 import { SolutionsHeaderComponent } from './solutions-page/solutions-header/solutions-header.component';
 import { SolutionsTransportComponent } from './solutions-page/solutions-transport/solutions-transport.component';
+import { SolutionsChoisirComponent } from './solutions-page/solutions-choisir/solutions-choisir.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { SolutionsTransportComponent } from './solutions-page/solutions-transpor
     SolutionsPageComponent,
     SolutionsHeaderComponent,
     SolutionsTransportComponent,
+    SolutionsChoisirComponent,
   ],
   imports: [
     BrowserModule,
