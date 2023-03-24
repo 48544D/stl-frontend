@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CarouselService } from 'src/app/services/home/reviews/carousel.service';
+// import { CarouselService } from 'src/app/services/home/reviews/carousel.service';
 
 @Component({
   selector: 'app-reviews',

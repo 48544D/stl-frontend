@@ -21,6 +21,8 @@ import { PopupComponent } from './home/popup/popup.component';
 import { ReviewsComponent } from './home/reviews/reviews.component';
 import { ConfianceComponent } from './home/confiance/confiance.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { SolutionsPageComponent } from './solutions-page/solutions-page.component';
+import { SolutionsHeaderComponent } from './solutions-page/solutions-header/solutions-header.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     PopupComponent,
     ReviewsComponent,
     ConfianceComponent,
+    SolutionsPageComponent,
+    SolutionsHeaderComponent,
   ],
   imports: [
     BrowserModule,
