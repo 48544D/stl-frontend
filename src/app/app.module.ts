@@ -32,6 +32,7 @@ import { StSolutionsComponent } from './smart-truck/st-solutions/st-solutions.co
 import { StChoisirComponent } from './smart-truck/st-choisir/st-choisir.component';
 import { SmartShipComponent } from './smart-ship/smart-ship.component';
 import { SsHeaderComponent } from './smart-ship/ss-header/ss-header.component';
+import { SsServicesComponent } from './smart-ship/ss-services/ss-services.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +62,7 @@ import { SsHeaderComponent } from './smart-ship/ss-header/ss-header.component';
     StChoisirComponent,
     SmartShipComponent,
     SsHeaderComponent,
+    SsServicesComponent,
   ],
   imports: [
     BrowserModule,

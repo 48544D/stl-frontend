@@ -1,0 +1,61 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+
+    padding: 6vw;
+
+    .line {
+        width: 30%;
+        height: 4px;
+        background-color: var(--primary-color);
+        margin: 0 auto;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3vw;
+
+        .service {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1vw;
+            text-align: center;
+            .image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                width: 14vw;
+                height: 14vw;
+                border-radius: 50%;
+                background-color: var(--primary-color);
+                
+                img {
+                    display: block;
+                    width: 7vw;
+                    margin: 0 auto;
+                }
+            }
+
+            h1 {
+                font-size: 2vw;
+                font-weight: 400;
+                color: var(--primary-color);
+            }
+
+            .line {
+                width: 30%;
+                height: 2px;
+                background-color: var(--primary-color);
+            }
+
+            p{
+                font-size: 1.2vw;
+                font-weight: 400;
+            }
+        }
+    }
+}
