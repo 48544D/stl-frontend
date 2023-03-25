@@ -1,0 +1,70 @@
+<div class="solutions">
+    <div class="header">
+        <h2>"Nos solutions sont élaborées par des experts métier."</h2>
+        <p>Afin de répondre aux particularités de chaque secteur d'activité, Smart Logistics Transition propose des de transport intégrées et personnalisées, adaptées vos besoins.</p>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="content">
+        <div class="tabs">
+            <div class="tab" (click)="openTab('tab1')" [class.active]="activeTab === 'tab1'">
+                <div class="image">
+                    <img class="white" src="assets/images/home/notre-tabs/product.png" alt="">
+                    <img class="blue" src="assets/images/home/notre-tabs/product-blue.png" alt="">
+                </div>
+            </div>
+            <span class="tab" (click)="openTab('tab2')" [class.active]="activeTab === 'tab2'">
+                <div class="image">
+                    <img class="white" src="assets/images/home/notre-tabs/transport.png" alt="">
+                    <img class="blue" src="assets/images/home/notre-tabs/transport-blue.png" alt="">
+                </div>
+            </span>
+            <span class="tab" (click)="openTab('tab3')" [class.active]="activeTab === 'tab3'">
+                <div class="image">
+                    <img class="white" src="assets/images/home/notre-tabs/DH.png" alt="">
+                    <img class="blue" src="assets/images/home/notre-tabs/DH-blue.png" alt="">
+                </div>
+            </span>
+            <span class="tab" (click)="openTab('tab4')" [class.active]="activeTab === 'tab4'">
+                <div class="image">
+                    <img class="white" src="assets/images/home/notre-tabs/frigo.png" alt="">
+                    <img class="blue" src="assets/images/home/notre-tabs/frigo-blue.png" alt="">
+                </div>
+            </span>
+            <span class="tab" (click)="openTab('tab5')" [class.active]="activeTab === 'tab5'">
+                <div class="image">
+                    <img class="white" src="assets/images/home/notre-tabs/customer.png" alt="">
+                    <img class="blue" src="assets/images/home/notre-tabs/customer-blue.png" alt="">
+                </div>
+            </span>
+        </div>
+        
+        
+        <div id="tab1" class="tab-content" [class.show]="activeTab === 'tab1'">
+            <h2>La solution de transport tout-en-un pour vos produits sensibles</h2>
+            <div class="line"></div>
+            <p>
+                Acheminement rapide et sécurisée de vos produits vrac, emballés, sous température dirigée
+                ou matiéres dangereuses ä travers tout le Maroc.
+            </p>       
+        </div>
+        
+        <div id="tab2" class="tab-content" [class.show]="activeTab === 'tab2'">
+            <h2>Tab 2 Content</h2>
+        </div>
+        
+        <div id="tab3" class="tab-content" [class.show]="activeTab === 'tab3'">
+            <h2>Tab 3 Content</h2>
+        </div>
+    
+        <div id="tab4" class="tab-content" [class.show]="activeTab === 'tab4'">
+            <h2>Tab 4 Content</h2>
+        </div>
+        
+        <div id="tab5" class="tab-content" [class.show]="activeTab === 'tab5'">
+            <h2>Tab 5 Content</h2>
+        </div>
+    </div>
+
+</div>
