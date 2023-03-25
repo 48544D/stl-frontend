@@ -1,0 +1,98 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    padding: 9vw 0;
+
+    h1 {
+        font-size: 3.5vw;
+        font-weight: 400;
+        color: var(--primary-color);
+        text-align: center;
+        margin: 0;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        padding: 0 7vw;
+
+        .image {
+            img {
+                width: 33vw;
+                height: 33vw;
+                object-fit: cover;
+            }
+            .title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: var(--secondary-color);
+                width: 83%;
+                padding: 0.5vw 0;
+
+                h1 {
+                    font-size: 2.7vw;
+                    font-weight: 400;
+                    color: #fff;
+                    text-align: center;
+                    margin: 0;
+                }
+
+                span {
+                    font-size: 2.5vw;
+                    font-weight: 200;
+                    color: #fff;
+                    text-align: center;
+                    margin: 0;
+                }
+            }
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+
+            p {
+                font-size: 1.3vw;
+                font-weight: 500;
+                margin: 0;
+                text-align: justify;
+            }
+
+            .fonctionnalites {
+                display: flex;
+                flex-direction: column;
+    
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0 0 0 1vw;
+    
+                    li {
+                        color: black;
+                        font-size: 1.3vw;
+                        font-weight: 500;
+    
+                        &:before {
+                            content: "\2713";
+                            color: var(--primary-color);
+                            font-size: 1.5vw;
+                            font-weight: 500;
+                            margin-right: 0.5vw;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
