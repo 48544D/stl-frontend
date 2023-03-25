@@ -1,7 +1,6 @@
 .popup-body {
     background-color: #285e94;
     max-width: max-content;
-    // border-radius: 30px;
     padding: 35px;
     display: flex;
     justify-content: center;
@@ -26,7 +25,6 @@
     
             h1 {
                 font-size: 3.5vw;
-                // line-height: 4.5vw;
                 margin: 0;
                 font-weight: 400;
             }
@@ -37,7 +35,7 @@
             }
 
             &:hover {
-                color: #000;
+                color: #b4b4b4;                
             }
         }
     }
@@ -78,7 +76,7 @@
             }
 
             &:hover {
-                color: #000;
+                color: #b4b4b4;
             }
         }
     }
