@@ -47,10 +47,10 @@
             .search-bar {
                 display: flex;
                 align-items: center;
-                width: 400px;
-                height: 40px;
+                width: 30vw;
+                height: 2.7vw;
                 border-radius: 20px;
-                border: 1px solid #22578c;
+                border: 1px solid var(--primary-color);
                 padding: 0 10px;
 
                 .search-input {
@@ -58,7 +58,7 @@
                     border: none;
                     outline: none;
                     background-color: transparent;
-                    font-size: 16px;
+                    font-size: 1.5vw;
                 }
 
                 .search-button {
@@ -66,8 +66,8 @@
                     outline: none;
                     background-color: transparent;
                     cursor: pointer;
-                    font-size: 20px;
-                    color: #22578c;
+                    font-size: 1.5vw;
+                    color: var(--primary-color);
                 }
             }
         }
