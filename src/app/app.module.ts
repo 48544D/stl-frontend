@@ -29,6 +29,7 @@ import { SolutionsAutresComponent } from './solutions-page/solutions-autres/solu
 import { SmartTruckComponent } from './smart-truck/smart-truck.component';
 import { StHeaderComponent } from './smart-truck/st-header/st-header.component';
 import { StSolutionsComponent } from './smart-truck/st-solutions/st-solutions.component';
+import { StChoisirComponent } from './smart-truck/st-choisir/st-choisir.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { StSolutionsComponent } from './smart-truck/st-solutions/st-solutions.co
     SmartTruckComponent,
     StHeaderComponent,
     StSolutionsComponent,
+    StChoisirComponent,
   ],
   imports: [
     BrowserModule,

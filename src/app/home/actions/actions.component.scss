@@ -2,8 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10vw;
-    padding-bottom: 5vw;
+    padding: 7vw 0;
 
     .box {
         display: flex;
@@ -15,39 +14,37 @@
         .image {
             img {
                 width: 10vw;
-                background-size: cover;
-                background-position: center;
-                transform: scale(2);
                 z-index: 1;
             }
         }
 
         .more-info {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            border: 2px solid #22578c;
-            border-radius: 50px;
-            cursor: pointer;
-            padding: .4vw 1.5vw;
-            z-index: 2;
-            transition: all 0.3s ease-in;
+            padding: 0 12vw;
+            gap: 1vw;
 
             a {
                 height: 100%;
                 color: #22578c;
                 font-size: 1.8vw;
-                line-height: 1;
+                line-height: 1.3;
                 text-decoration: none;
-                text-align: left;
+                text-align: center;
                 transition: all 0.3s ease-in;
+
+                &:hover {
+                    color: #22578c;
+                    text-decoration: underline;
+                }
             }
 
-            &:hover {
-                background: #22578c;
-                a {
-                    color: #fff;
-                }
+            p {
+                font-size: 1.3vw;
+                margin: 0;
+                text-align: center;
             }
         }
     }
