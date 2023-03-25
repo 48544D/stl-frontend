@@ -26,6 +26,8 @@ import { SolutionsHeaderComponent } from './solutions-page/solutions-header/solu
 import { SolutionsTransportComponent } from './solutions-page/solutions-transport/solutions-transport.component';
 import { SolutionsChoisirComponent } from './solutions-page/solutions-choisir/solutions-choisir.component';
 import { SolutionsAutresComponent } from './solutions-page/solutions-autres/solutions-autres.component';
+import { SmartTruckComponent } from './smart-truck/smart-truck.component';
+import { StHeaderComponent } from './smart-truck/st-header/st-header.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +51,8 @@ import { SolutionsAutresComponent } from './solutions-page/solutions-autres/solu
     SolutionsTransportComponent,
     SolutionsChoisirComponent,
     SolutionsAutresComponent,
+    SmartTruckComponent,
+    StHeaderComponent,
   ],
   imports: [
     BrowserModule,
